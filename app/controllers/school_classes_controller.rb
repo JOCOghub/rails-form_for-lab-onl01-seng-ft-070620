@@ -1,4 +1,4 @@
-def show
+  def show
     @school_class = SchoolClass.find(params[:id])
   end
 
